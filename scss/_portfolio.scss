@@ -17,12 +17,14 @@
       color: $white;
       margin: auto 2rem 2rem;
       h2 {
-        font-size: 0.8rem;
+        font-size: 1.0rem;
         text-transform: uppercase;
+        text-shadow: 2px 2px 2px #050505;
       }
       p {
-        font-weight: 300;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #050505;
       }
     }
   }
