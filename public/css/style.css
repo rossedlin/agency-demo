@@ -87,17 +87,24 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("/img/the-sun-3057624.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/img/the-sun-3057624.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
+  color: #f7f7f7;
+  text-shadow: 2px 2px 8px #050505;
   font-size: 4rem;
   margin: 0;
   padding: 0;
+}
+
+.masthead h3 {
+  color: #f7f7f7;
+  text-shadow: 2px 2px 8px #050505;
 }
 
 @media (min-width: 992px) {
@@ -253,13 +260,15 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   text-transform: uppercase;
+  text-shadow: 2px 2px 2px #050505;
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #050505;
 }
 
 @media (min-width: 992px) {
@@ -306,7 +315,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #343a40;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -314,7 +323,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #1d2124;
   text-decoration: none;
 }
 
