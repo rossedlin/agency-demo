@@ -28,12 +28,12 @@ function css() {
       browsers: ['last 2 versions'],
       cascade: false
     }))
-    .pipe(gulp.dest("./public/css"))
+    .pipe(gulp.dest("./step-99/css"))
     .pipe(rename({
       suffix: ".min"
     }))
     .pipe(cleanCSS())
-    .pipe(gulp.dest("./public/css"));
+    .pipe(gulp.dest("./step-99/css"));
 }
 
 // Define complex tasks
